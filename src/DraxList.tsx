@@ -210,6 +210,7 @@ const DraxListUnforwarded = <T extends unknown>(
 	const resetDraggedItem = useCallback(
 		() => {
 			draggedItemRef.current = undefined;
+		console.log("resetDraggedItem");
 		},
 		[],
 	);
